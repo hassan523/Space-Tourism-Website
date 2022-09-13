@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+body img {
+    width: 100%;
+height: 100%;
+}
+body {
+    display: grid;
+    overflow: hidden;
+}
+header {
+    position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 25%;
+}
+.logo {
+    position: relative;
+top: 60px;
+left: 98px;
+width: fit-content;
+}
+.line {
+    width: 900px;
+height: 1px;
+background: #fff;
+position: relative;
+left: 215px;
+top: 33px;
+z-index: 1;
+opacity: 0.25;
+}
+.links ul {
+    display: flex;
+position: absolute;
+right: 0;
+overflow: hidden;
+top: 31px;
+width: 23cm;
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(81.5485px);
+height: 108px;
+}
+.links ul li {
+    margin: 45px;
+list-style: none;
+position: relative;
+left: 110px;
+}
+.links ul li a {
+    text-decoration: none;
+height: 62px;
+display: inline-block;
+}
+.links ul li a::before {
+    content: '';
+position: absolute;
+width: 100%;
+height: 2px;
+background-color: #ffffff82;
+top: 60px;
+left: 11px;
+transform: translateY(150%);
+}
+.links ul li a:hover::before{
+    transform: translateY(0);
+}
+.destination::before{
+    content: '';
+position: absolute;
+width: 100%;
+height: 2px;
+background-color: #fff;
+top: 60px;
+left: 11px;   
+}
+.num {
+    margin: 11px;
+}
+main {
+    position: relative;
+bottom: 43cm;
+}
+.firstdiv {
+    position: relative;
+left: 6cm;
+font-family: 'Barlow Condensed';
+font-size: 28px;
+letter-spacing: 2px;
+text-transform: uppercase;
+bottom: 79px;
+}
+.moon {
+    position: relative;
+width: 445px;
+left: 268px;
+}
+.linkstwo {
+    position: relative;
+left: 29cm;
+bottom: 12.4cm;
+width: fit-content;
+}
+.linkstwo ul {
+    display: flex;
+}
+.linkstwo ul li {
+    margin: 0px 30px;
+    list-style: none;
+}
+.linkstwo ul li a {
+    text-decoration: none;
+height: 29px;
+display: inline-block;
+}
+.linkstwo ul li a span {
+    height: 42px;
+display: inline-block;
+}
+.one:hover::before, .two:hover::before, .three:hover::before {
+    z-index: 1;
+}
+.seconddiv {
+    position: relative;
+    left: 29.4cm;
+    bottom: 11cm;
+    font-family: 'Bellefair';
+    font-style: normal;
+    line-height: 115px;
+}
+.firsthead {
+    font-weight: 400;
+    font-size: 137px;
+}
+.thirddiv {
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 32px;
+width: 14.5cm;
+position: relative;
+left: 29.7cm;
+bottom: 10cm;
+}
+main .line {
+    width: 600px;
+position: relative;
+left: 29.7cm;
+top: -9cm;
+}
+.forthdiv {
+    width: fit-content;
+position: relative;
+left: 29.7cm;
+bottom: 8cm;
+}
+.numtwo {
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+text-transform: uppercase;
+}
+.thirdpara {
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+}
+.fifthdiv {
+    POSITION: RElative;
+left: 39cm;
+bottom: 9.3cm;
+}

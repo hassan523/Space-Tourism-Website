@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="destination.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <style>
+      .one::before {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 2px;
+    background-color: #ffffff82;
+    left: -10px;
+    margin: 0px 40px;
+    top: 29px;
+    z-index: -1;
+}
+.two::before {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 2px;
+   background-color: #ffffff82;
+    left: 98px;
+    margin: 0px 40px;
+    top: 29px;
+    z-index: -1;
+}
+.three::before {
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #ffffff82;
+    left:328px;
+    margin: 0px 40px;
+    top: 29px;
+    z-index: -1;
+}
+
+.europalink::before{
+  content: '';
+position: absolute;
+width: 65px;
+height: 2px;
+background-color: #fff;
+top: 29px;
+left: 245px; 
+}
+    </style>
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        src="assets/destination/background-destination-desktop.jpg"
+        alt=""
+        style="width: 100%"
+      />
+      <header>
+        <div class="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#FFFFFF" />
+              <path
+                fill="#0B0D17"
+                d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div class="line"></div>
+        <div class="links">
+          <ul>
+            <li>
+              <a href="index.html"> <span class="num">00</span>Home</a>
+            </li>
+            <li class="destination">
+              <a href="destination-moon.html">
+                <span class="num">01</span>Destination</a
+              >
+            </li>
+            <li>
+              <a href="crew-commander.html"> <span class="num">02</span>Crew</a>
+            </li>
+            <li>
+              <a href="technology-vehicle.html"> <span class="num">03</span>Technology</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <div class="main">
+          <div class="firstdiv">
+            <p class="firstpara"><span>01</span> Pick your destination</p>
+          </div>
+          <div class="moon">
+            <img src="assets/destination/image-europa.png" alt="" />
+          </div>
+          <div class="linkstwo">
+            <ul>
+              <li class="one"><a href="destination-moon.html"><span>MOON</span></a></li>
+              <li class="two"><a href="destination-mars.html"><SPAN ">MARS</SPAN></a></li>
+              <li class="europalink"><a href="destination-europa.html"><SPAN >EUROPA</SPAN></a></li>
+              <li class="three"><a href="destination-titan.html"><SPAN >TITAN</SPAN></a></li>
+            </ul>
+          </div>
+          <div class="seconddiv">
+            <h1 class="firsthead">EUROPA</h1>
+          </div>
+          <div class="thirddiv">
+            <p class="secondpara">
+              The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.
+            </p>
+          </div>
+          <div class="line"></div>
+          <div class="forthdiv"><p class="thirdpara">AVG. DISTANCE</p><span class="numtwo">628 MIL. km</span></div>
+          <div class="fifthdiv"><p class="thirdpara">Est. travel time</p><span class="numtwo">3 YEARS</span></div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
